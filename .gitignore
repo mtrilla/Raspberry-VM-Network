@@ -1,0 +1,11 @@
+# Claves y secretos
+*.pem
+*.key
+id_rsa*
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Configuración local que no quieres compartir
+.env
