@@ -82,3 +82,9 @@ For each client:
 - Every host received its IP from Kea, not from a static config
 - No unexpected open ports on the server (nmap)
 - Results documented with logs or screenshots
+
+---
+
+## Host OS
+
+To install the Raspberry Pi OS Lite we will be using the Raspberry Pi Imager
