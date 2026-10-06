@@ -97,50 +97,62 @@ Installed with Raspberry Pi Imager, which writes the OS image and applies the co
 <br>
    
 2. **OS**: Raspberry Pi OS Lite (64-bit) — headless, no desktop environment.
+<br>
+   ![Choose OS](images/HostOS/install_conf_os_select_2.png)
+<br>
    ![Choose OS](images/HostOS/install_conf_os_select_3.png)
    
 <br>
 
 3. **Storage**: the 128GB SD card freed from the Jetson.
+<br>
    ![Select storage](images/HostOS/install_conf_storageunit_select_4.png)
 
 <br>
    
 4. **Hostname**: `RVMN-RPI`
+<br>
    ![Hostname](images/HostOS/install_conf_custom_hostname_5.png)
 
 <br>
 
 5. **Localisation**: Madrid (Spain) timezone, `es` keyboard layout.
+<br>
    ![Localisation](images/HostOS/install_conf_custom_localisation_6.png)
 
 <br>
 
 6. **User account** created.
+<br>
    ![User](images/HostOS/install_conf_custom_user_7.png)
 
 <br>
 
 7. **Wi-Fi** configured as a fallback connection.
+<br>
    ![Wi-Fi](images/HostOS/install_conf_custom_wifi_8.png)
 
 <br>
    
 8. **SSH**: enabled, public key authentication only, password login disabled.
+<br>
    ![SSH](images/HostOS/install_conf_custom_ssh_9.png)
 
 <br>
    
 9. **Raspberry Pi Connect**: left disabled (SSH is enough for remote access).
+<br>
    ![RPi Connect](images/HostOS/install_conf_custom_rpic_10.png)
 
 <br>
    
 10. Reviewed the summary and wrote the image to the SD card.
+<br>
     ![Write summary](images/HostOS/install_conf_write_11.png)
 
 <br>
 
 11. Write completed successfully.
+<br>
     ![Write complete](images/HostOS/install_conf_done_12.png)
 
