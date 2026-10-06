@@ -85,6 +85,43 @@ For each client:
 
 ---
 
-## Host OS
+## Execution
 
-To install the Raspberry Pi OS Lite we will be using the Raspberry Pi Imager
+### Host OS
+
+Installed with Raspberry Pi Imager, which writes the OS image and applies the configuration in one step.
+
+1. **Device**: Raspberry Pi 5
+   ![Select device](images/HostOS/install_conf_device_select_1.png)
+
+2. **OS**: Raspberry Pi OS Lite (64-bit) — headless, no desktop environment.
+   ![Choose OS](images/HostOS/install_conf_os_select_3.png)
+
+3. **Storage**: the 128GB SD card freed from the Jetson.
+   ![Select storage](images/HostOS/install_conf_storageunit_select_4.png)
+
+4. **Hostname**: `RVMN-RPI`
+   ![Hostname](images/HostOS/install_conf_custom_hostname_5.png)
+
+5. **Localisation**: Madrid (Spain) timezone, `es` keyboard layout.
+   ![Localisation](images/HostOS/install_conf_custom_localisation_6.png)
+
+6. **User account** created.
+   ![User](images/HostOS/install_conf_custom_user_7.png)
+
+7. **Wi-Fi** configured as a fallback connection.
+   ![Wi-Fi](images/HostOS/install_conf_custom_wifi_8.png)
+
+8. **SSH**: enabled, public key authentication only, password login disabled.
+   ![SSH](images/HostOS/install_conf_custom_ssh_9.png)
+
+9. **Raspberry Pi Connect**: left disabled (SSH is enough for remote access).
+   ![RPi Connect](images/HostOS/install_conf_custom_rpic_10.png)
+
+10. Reviewed the summary and wrote the image to the SD card.
+    ![Write summary](images/HostOS/install_conf_write_11.png)
+
+11. Write completed successfully.
+    ![Write complete](images/HostOS/install_conf_done_12.png)
+
+**Done when:** booted the Pi from this SD card and connected with `ssh <user>@<hostname>.local` using the configured key, no password prompt.
