@@ -161,12 +161,12 @@ Installed with Raspberry Pi Imager, which writes the OS image and applies the co
 10. Reviewed the summary and wrote the image to the SD card.
 <br>
 
-    ![Write summary](images/HostOS/install_conf_write_11.png)
+![Write summary](images/HostOS/install_conf_write_11.png)
 
 <br>
 
 11. Write completed successfully.
 <br>
 
-    ![Write complete](images/HostOS/install_conf_done_12.png)
+![Write complete](images/HostOS/install_conf_done_12.png)
 
